@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Comparison / Speed Garage</title>
+    <title>Compare / Speed Garage</title>
   </head>
   <body>
     <header>
@@ -31,6 +31,93 @@
           This table will compare both car Mercedes G-Wagon and Mustang GT based
           on performance and features.
         </p>
+
+        <table>
+          <tr>
+            <th>Features</th>
+            <th>Mercedes G-Wagon</th>
+            <th>Mustang GT</th>
+          </tr>
+          <tr>
+            <td>Vehicle type</td>
+            <td>Luxury SUV</td>
+            <td>Sports car</td>
+          </tr>
+          <tr>
+            <td>Price Range</td>
+            <td>Very expensive</td>
+            <td>More Afforable</td>
+          </tr>
+          <tr>
+            <td>Top speed</td>
+            <td>220</td>
+            <td>250</td>
+          </tr>
+          <tr>
+            <td>Best for</td>
+            <td>Off roading and luxury</td>
+            <td>Speed and sporty driving</td>
+          </tr>
+          <tr>
+            <td>Weather performance</td>
+            <td>Very good in snow and rain</td>
+            <td>Better in dry days</td>
+          </tr>
+        </table>
+      </section>
+
+      <br />
+
+      <section>
+        <h3>Which car do u prefer to buy.</h3>
+        <p>
+          Please fill out the form and tell us what car do you prefer to buy.
+        </p>
+
+        <form>
+          <!--This is the name input-->
+          <label for="name">First name</label>
+          <input type="Text" id="name" name="name" />
+
+          <br />
+          <br />
+
+          <!--This is where u put your email-->
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" />
+
+          <br />
+
+          <!--
+          this is where u will select the car u want to buy
+          -->
+
+          <p>What car u want to buy or u like</p>
+          <input
+            type="radio"
+            id="Mercedes G-Wangon"
+            name="car"
+            value="Mercedes G-Wagin" />
+
+          <label for="Mercedes G-Wagon">Mercedes G-Wagon</label>
+
+          <br />
+          <input type="radio" id="Mustang GT" name="car" value="Mustang GT" />
+          <label for="Mustang GT">Mustang GT</label>
+
+          <br />
+
+          <!--
+          This is where u will text what color u want the car to be
+          -->
+          <label for="favcolor">Choose your favorite car color:</label><br />
+          <input type="color" id="favcolor" name="favcolor" />
+          <br />
+          <br />
+
+          <!--This is where u will submit your form-->
+          <input type="submit" value="submit" />
+        </form>
       </section>
     </main>
   </body>
